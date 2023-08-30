@@ -30,10 +30,10 @@ public class TesteCadastroVetor {
 				JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE)==0);
 		for (continuar = 0; continuar < indice; continuar++) {
 			System.out.println("Cadastro" + (continuar + 1) +
-					"\nNome: " + vetorCadastro[indice].getNome() +
-					"\nRG: " + vetorCadastro[indice].getRg() +
-					"\nIdade: " + vetorCadastro[indice].getIdade() +
-					"\nAltura: " + vetorCadastro[indice].getAltura());
+					"\nNome: " + vetorCadastro[continuar].getNome() +
+					"\nRG: " + vetorCadastro[continuar].getRg() +
+					"\nIdade: " + vetorCadastro[continuar].getIdade() +
+					"\nAltura: " + vetorCadastro[continuar].getAltura());
 		}
 	}
 }
